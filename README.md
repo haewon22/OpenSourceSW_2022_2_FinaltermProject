@@ -27,11 +27,3 @@ svm = SVC(random_state = 1, kernel='linear', probability=True)
 >* Name : 정해원
 >* Student ID : 20221377
 >* E-mail : haewon20430@cau.ac.kr
-
-
-
-
-Explain what you do in your project
-• Explain the training dataset
-• Explain the algorithm you choose
-• Explain hyper-parameter of the function
