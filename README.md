@@ -8,9 +8,10 @@
 >* KNN
 ## Hyperparameter
 ```
-knn = KNeighborsClassifier(n_neighbors=1)
-extra_clf = ExtraTreesClassifier(n_estimators=90, random_state=7, max_depth=19, max_leaf_nodes = 10000)
-svm = SVC(random_state = 1, kernel='linear', probability=True)
+KNeighborsClassifier(n_neighbors=1)
+ExtraTreesClassifier(n_estimators=90, random_state=7, max_depth=19, max_leaf_nodes = 10000)
+SVC(random_state = 1, kernel='linear', probability=True)
+VotingClassifier(estimators=[ ('extra', extra_clf), ('KNN', knn), ('SVM', svm) ], voting='soft')
 ```
 ## Training Dataset
 > MRI data
