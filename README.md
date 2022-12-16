@@ -1,7 +1,7 @@
 2022_2_FinaltermProject
 =========================
 # • *Configuration instructions*
-## Voting Classifier with
+Voting Classifier with
 >* SVM
 >* ExtraTrees
 >* KNN
