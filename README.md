@@ -1,4 +1,4 @@
-*2022_2_FinaltermProject*
+2022_2_FinaltermProject
 =========================
 # • *Configuration instructions*
 ## Voting Classifier with
